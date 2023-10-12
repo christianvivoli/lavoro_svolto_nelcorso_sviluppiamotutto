@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(39, 39, 39);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    background-color: rgb(174, 174, 74);
+    margin: 25%;
+}
+h1 {
+    margin: 0.5rem;
+}
+div{
+    margin: 1rem;
+}
+div span{
+    margin-left: 1rem;
+}
+button{
+    width: 4rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    background-color: rgb(113, 113, 53);
+}

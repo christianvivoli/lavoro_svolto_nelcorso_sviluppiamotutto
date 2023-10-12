@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="titolo">Contact Us</h1>
+    <form action="" method="GET">
+        <section id="section-help">
+            <h1>How can we help yuo?</h1>
+            <label for="user-nam " >Your Name</label>
+            <input type="text" name="user-name" id="user-name" />
+      
+            <label for="eamil">Yuor <Embed></Embed>mail</label>
+            <input type="email" name="email" id="email" />
+            
+            <label for="number">Your Number</label>
+            <input type="number" name="number" id="nunmber" step="1"/>
+             
+            <label for="message">Yuor Message</label>
+            <textarea name="message" id="messagge" cols="30" rows="10"></textarea>
+            <label for="chose">How did yuo find us?</label>
+            <select name="chose" id="chose" required>
+                <option value="">nessun elemento inserito</option>
+
+                <option value="perfetto" id="opt">With internet</option>
+            </select>
+        </section>
+        <section id="risposta">
+            <h1>How should we reply?</h1>
+            <div>
+                <input type="radio" name="chiamata" id="call-me">
+                <label for="call-me">Call me</label>
+            </div>
+
+            <div>
+                <input type="radio" name="chiamata" id="send-me-an-email">
+                <label for="send-me-an-email">Send me an email</label>
+            </div>
+
+            <div>
+                <input type="radio" name="chiamata" id="don't-reply">
+                <label for="don't-reply">Don't reply</label>
+            </div>
+
+            <div id="accept">
+                <input type="checkbox" name="accept" id="accept">
+                <label for="accept" id="accept-term">Accept Terms</label>
+            </div>
+
+        </section>
+        <div id="bottoni">
+            <!-- si poteva usare il tasto button con type reset  -->
+            <a href="index.html">Clear</a>
+            <button type="submit">Submit</button>
+        </div>
+        
+    </form>
+
+    
+  </body>
+</html>
