@@ -1,0 +1,192 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f0e7fc;
+    font-family: 'Inter', sans-serif;
+}
+
+#backdrop{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.7);
+}
+
+header{
+    margin: 0px;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    background-color:#8a42f5;
+    color: #e1cdff;
+}
+
+header h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    text-align: center;
+} 
+
+main ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+    margin: 4rem auto;
+}
+
+main li {
+    text-decoration: none;
+    background-color: #e1cdff;
+}
+
+main .player{
+    border:1px solid;
+    box-shadow: 5px 10px 18px #8a42f5;
+    border-radius: 6px;
+    color: #8a42f5;
+    padding: 1rem;
+}
+main h4,.tipo{
+    color: black;
+}
+
+main div button{
+    border: none;
+    background-color: #e1cdff;
+    color:#8a42f5;
+}
+
+main div button:hover{
+    cursor: pointer;
+}
+
+main aside{
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    background-color:white;
+    border-radius: 6px;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+    
+}
+.removeAside{
+    display: none;
+}
+
+main aside form h1{
+    padding: 1rem;
+    margin: 0px;
+}
+
+main aside form #formDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+main aside form #formDiv input{
+    width: 25%;
+    margin-top: 0.75rem;
+    border: 0px solid;
+    border-color: white;
+    box-shadow: 3px 5px 15px #8a42f5;
+    border-radius: 6px;
+}
+main aside form #formDiv input:focus{
+    background-color: violet;
+}
+
+.lable{
+    color: black;
+}
+
+main aside form .listabottoni{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:white;
+    list-style: none;
+    margin: 1rem;
+    padding: 0px;
+}
+
+main aside form .listabottoni li{
+    margin: 3px;
+    background-color: white;
+}
+
+main aside form button{
+    margin-bottom: 1rem;
+    border-color: white;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+}
+
+#buttonCancel{
+    background-color: #e1cdff;
+    color: #8a42f5;
+    border: 1px solid  #e1cdff;
+}
+
+#buttonConfirm{
+    background-color: #8a42f5;
+    color: white;
+    border: 1px solid #8a42f5;
+}
+
+.buttonStartGame{
+    font-size: medium;
+    background-color: #8a42f5;
+    color: white;
+    border: 1px solid #8a42f5;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+section ol{
+    display: grid;
+    margin: 1rem 0;
+    padding: 0;
+    grid-template-columns: repeat(3,6rem);
+    grid-template-rows: repeat(3,6rem);
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+section ol li{
+    background-color: #e1cdff;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+section ol li:hover{
+    background-color: #8a42f5;
+}
+
+section ol li.disabled{
+    background-color: #8a42f5;
+    color: white;
+    cursor: default;
+}
+#win{
+    display: none;
+}
+#turno span{
+    color: #8a42f5;
+}
