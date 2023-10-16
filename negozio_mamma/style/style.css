@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(255, 192, 233);
+}
+
+header nav{
+    background-color: rgb(251, 222, 241) !important;
+}
+
+header nav #navbar{
+   /* width: 0.5rem; */
+}
+
+#image-navbar{
+    height: 100%;
+    
+}
