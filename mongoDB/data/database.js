@@ -5,7 +5,7 @@ const MongoClient = mongodb.MongoClient;
 let database;
 
 async function connect() {
-    const client = await MongoClient.connect('mongodb://root:root@127.0.0.1:27017');
+    const client = await MongoClient.connect('mongodb://root:root@127.0.0.1:27017');//mongodb://127.0.0.1:27017
     database = client.db('blog');
 }
 
